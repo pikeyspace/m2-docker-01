@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<layout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_layout.xsd">
+    <update handle="3columns"/>
+    <referenceContainer name="main">
+
+        <container name="custom-slider" as="custom-slider" htmlTag="div" htmlClass="custom-slider" >
+            <block class="Magento\Framework\View\Element\Template" name="custom.slider" as="customSlider" template="Magento_Cms::custom-slider.phtml" />
+        </container>
+
+        <container name="custom-table" as="custom-table" htmlTag="div" htmlClass="custom-table" >
+            <block class="Magento\Framework\View\Element\Template" name="custom.table" as="customTable" template="Magento_Cms::custom-table.phtml" />
+        </container>
+
+    </referenceContainer>
+</layout>

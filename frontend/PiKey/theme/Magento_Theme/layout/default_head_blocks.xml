@@ -1,0 +1,18 @@
+<page    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+<!-- Try to add custom favicon -->
+        <link src="Magento_Theme::scnsoft-favicon.jpg" rel="icon" sizes="32x32" />
+
+<!-- Add bootstrap to project -->
+        <link rel="stylesheet"  type="text/css" src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" src_type="url" />   
+        <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" src_type="url" /> -->
+        
+<!-- Add JQuery to project -->
+        <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" src_type="url" /> -->
+
+<!-- Add popper.js -->
+        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" src_type="url" /> -->
+
+    </head>
+</page>

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <!-- <referenceContainer name="custom-column-left">
+            <container name="custom-table" as="custom-table"  htmlTag="table" htmlClass="table table-dark">
+                <block class="Magento\Framework\View\Element\Template" name="custom.table" as="customTable" template="Magento_Cms::custom-table.phtml" />
+            </container>
+        </referenceContainer>
+
+        <referenceContainer name="custom-column-right">
+            <container name="custom-dropdown" as="custom-dropdown"  htmlTag="div" htmlClass="btn-group">
+                <block class="Magento\Framework\View\Element\Template" name="custom.dropdown" as="customDropdown" template="Magento_Cms::custom-dropdown.phtml" />
+            </container>
+        </referenceContainer> -->
+    </body>
+</page>
+
+
+

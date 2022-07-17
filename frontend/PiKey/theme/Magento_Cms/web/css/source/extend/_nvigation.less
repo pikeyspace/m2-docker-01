@@ -1,0 +1,26 @@
+
+& when (@media-common = true) {
+    .nav-sections {
+        .lib-css(background, @color-white);
+    }
+    .navigation {
+        .lib-css(background, @color-white);
+        & ul li a span{
+            .lib-css(color, @color-blue3);
+            font-size: 1.4rem;
+        }
+    }
+}
+
+.media-width(@extremum, @break) when (@extremum = 'min') and (@break = @screen__m) {
+    .nav-sections {
+        .lib-css(background, @color-white);
+    }
+    .navigation {
+        .lib-css(background, @color-white);
+        & ul li a span{
+            .lib-css(color, @color-blue3);
+            font-size: 1.4rem;
+        }
+    }
+}

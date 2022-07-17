@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<page   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+
+<!-- Header -->
+
+        <referenceBlock name="logo">
+            <arguments>
+                <argument name="logo_file" xsi:type="string">images/Group.png</argument>
+                <argument name="logo_alt" xsi:type="string">TFT aero</argument> 
+            </arguments>
+        </referenceBlock>
+
+        <referenceContainer name="header.panel">
+            <container name="header.inner" label="headerInner" htmlTag="div" htmlClass="header-inner" />
+        </referenceContainer>
+
+        <referenceContainer name="header.inner">
+            <container name="block.left" label="blockLeft" htmlTag="div" htmlClass="header-left-block" />
+            <container name="block.right" label="blockRight" htmlTag="div" htmlClass="header-right-block" />
+        </referenceContainer>
+
+
+<!-- Moving  -->
+
+        <move element="logo" destination="block.left" />
+        <move element="header.links" destination="block.right" />
+        <move element="currency" destination="block.right" />
+
+<!-- Removing -->
+
+        <referenceBlock name="navigation.sections" remove="true" />
+        <referenceBlock name="minicart" remove="true" />
+        <referenceBlock name="header-wrapper" remove="true" />
+
+
+    </body>
+</page>

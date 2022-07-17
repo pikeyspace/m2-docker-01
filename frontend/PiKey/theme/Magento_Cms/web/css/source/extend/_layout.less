@@ -1,0 +1,45 @@
+
+& when (@media-common = true) {
+
+    .custom-column-layout,
+    .custom-table,
+    .custom-slider {
+        margin-bottom: 50px;
+    }
+    
+
+
+    .carousel-item {
+        & img {
+            width: 300px;
+        }
+    }
+
+
+    .table-dark {
+        .lib-css(background-color, @color-blue2);
+    }
+}
+
+.media-width(@extremum, @break) when (@extremum = 'min') and (@break = @screen__m) {
+    
+    .custom-column-layout,
+    .custom-table,
+    .custom-slider {
+        margin-bottom: 50px;
+    }
+
+  
+
+    .carousel-item {
+        & img {
+            width: 300px;
+        }
+    }
+
+    .table-dark {
+        .lib-css(background-color, @color-blue2);
+    }
+
+
+}

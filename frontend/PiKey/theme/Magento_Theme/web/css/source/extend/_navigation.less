@@ -1,0 +1,31 @@
+.panel {
+    .header {
+        .links {
+            list-style: none;
+            padding-left: 0;
+            margin-bottom: 0;
+            ul {
+                .lib-css(color, @color-white);
+            }
+            li {
+                & a {
+                    .lib-css(color, @color-white);
+                }
+            }
+        }
+    }
+}
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-left-block {
+    display: flex;
+    align-items: center;
+}
+
+.navigation {
+    text-transform: uppercase;
+}
